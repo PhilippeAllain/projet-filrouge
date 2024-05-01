@@ -11975,7 +11975,7 @@ main {
   margin-bottom: 270px;
 }
 
-footer {
+footer.footer {
   padding: 15px;
   position: absolute;
   bottom: 0;
@@ -11983,6 +11983,7 @@ footer {
 }
 
 p {
+  font-family: "Hind Madurai", serif;
   font-size: 18px;
 }
 
@@ -12010,6 +12011,10 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .image-card {
